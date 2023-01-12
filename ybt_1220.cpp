@@ -2,7 +2,7 @@
 using namespace std;
 int n,hans;char words[30][30],key;
 //定义存储变量
-short vis[30],DEBUG=0;
+short vis[30];bool DEBUG=0;
 //每个单词都最多在“龙”中出现两次，使用short类型vis数组
 template<typename L> inline void logr(L a){
 	if(DEBUG)cout<<a;
